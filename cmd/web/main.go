@@ -25,7 +25,6 @@ func main() {
 	//leled loggig
 	//infoLog is used to reperesent information about the programm eg:log.printf("starting in :40000")
 	infoLog := log.New(os.Stdout, " INFO ", log.Ldate|log.Ltime)
-
 	//errorLog is used to show errors log.Lshortfile shows the file name and the line number
 	errorLog := log.New(os.Stderr, "ERROR", log.Ldate|log.Ltime|log.Lshortfile)
 
